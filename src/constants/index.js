@@ -43,11 +43,6 @@ export const navigation = [
     url: "#features",
   },
   {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
     id: "2",
     title: "How to use",
     url: "#how-to-use",
@@ -57,18 +52,7 @@ export const navigation = [
     title: "Roadmap",
     url: "#roadmap",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -96,7 +80,7 @@ export const roadmap = [
     id: "0",
     title: "Voice recognition",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "May 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
@@ -105,7 +89,7 @@ export const roadmap = [
     id: "1",
     title: "Gamification",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    date: "May 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
@@ -113,7 +97,7 @@ export const roadmap = [
     id: "2",
     title: "Chatbot customization",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "May 2024",
     status: "done",
     imageUrl: roadmap3,
   },
@@ -121,7 +105,7 @@ export const roadmap = [
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "May 2024",
     status: "progress",
     imageUrl: roadmap4,
   },
